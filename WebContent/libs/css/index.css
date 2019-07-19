@@ -1,0 +1,237 @@
+.bg-color-1 {
+    background: #26ae61;
+  }
+  
+  .bg-color-2 {
+    background: #4DADF5;
+  }
+  
+  .bg-color-3 {
+    background: #028af1;
+  }
+  
+  .bg-color-4 {
+    background: #8000ff;
+  }
+  
+  .bg-color-5 {
+    background: #40e0d0;
+  }
+  
+  .bg-color-6 {
+    background: #ff8000;
+  }
+  
+  .bg-color-7 {
+    background: #1d64b4;
+  }
+  
+  .bg-color-8 {
+    background: #fbc1f0;
+  }
+  .f-category {
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    border: 1px solid #f1f1f1;
+    margin-top: -1px;
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    margin-right: -1px;
+  }
+  
+  .f-category a {
+    display: block;
+  }
+  
+  .f-category:hover {
+    background: #f9fcff;
+  }
+  
+  .f-category .icon {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  
+  .f-category .icon i {
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 64px;
+  }
+  
+ 
+  
+  .f-category h3:hover {
+    color: #26ae61;
+  }
+  
+  .f-category p {
+    color: #9a9a9a;
+  }
+  
+  .f-category:hover .icon {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  .f-category h3 {
+    font-size: 18px;
+    line-height: 32px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .browse-cat h2{
+    color: #333;
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .browse-cat p{
+    color: #333;
+    text-align: center;
+  }
+
+
+
+  /*   Section */
+  .section {
+    padding: 60px 0 60px;
+  }
+  
+  .section-header {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .section-header .section-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    position: relative;
+  }
+  .section-header p{
+    color: #9a9a9a;
+  }
+/* .featured-jobs{
+    background-color: #f9fcff;
+} */
+
+
+
+
+  
+.work-process {
+    padding: 0px 30px;
+    text-align: center;
+  }
+  
+  .work-process .process-icon {
+    font-size: 48px;
+    color: #26ae61;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .work-process h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+
+  #featured .job-featured {
+    background: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 4px solid transparent;
+    box-shadow: 0px 0px 14px rgba(191, 191, 191, 0.24);
+    /* transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out; */
+  }
+  #featured .job-featured .content {
+    padding-left: 90px;
+  }
+  #featured .job-featured .content h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  #featured .job-featured .content h3 a {
+    color: #333;
+  }
+  
+  #featured .job-featured .content h3 a:hover {
+    color: #26ae61;
+  }
+  #featured .job-featured:hover {
+    border-color: #26ae61;
+  }
+
+  /* Parallex code */
+  .parallax {
+    /* The image used */
+    background-image: url("/WebContent/libs/imgs/brown-business-technologies-coffee-162605.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+    height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("/WebContent/libs/imgs/dc94fc93bba5600199618b0caf4761c2e54e4cc3.jpeg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+    height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax h1{
+    color: white;
+    text-align: center;
+    padding-top: 275px;
+    font-size: 60px;
+  }
+  .header-btn-align{
+    align-content: right;
+  }
