@@ -204,7 +204,7 @@
   
     /* Set a specific height */
     min-height: 500px; 
-    height: 600px;
+    height: 700px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -214,11 +214,11 @@
   }
   .parallax2 {
     /* The image used */
-    background-image: url("/WebContent/libs/imgs/dc94fc93bba5600199618b0caf4761c2e54e4cc3.jpeg");
+    background-image: url("/WebContent/libs/imgs/brown-business-technologies-coffee-162605.jpg");
   
     /* Set a specific height */
     min-height: 500px; 
-    height: 600px;
+    height: 700px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -231,7 +231,19 @@
     text-align: center;
     padding-top: 275px;
     font-size: 60px;
+    text-decoration: underline;
+  }
+  .parallax2 h1{
+    color: white;
+    text-align: center;
+    padding-top: 275px;
+    font-size: 60px;
+    text-decoration: underline;
   }
   .header-btn-align{
     align-content: right;
   }
+ 
+  /* body{
+    padding-top:  63px;
+  } */

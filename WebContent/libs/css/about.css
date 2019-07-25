@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+html{
+	height: 100%;
+}
+/*adding background to AboutUs page*/
+body{
+	background: url("https://www.woodendnh.org.au/wp-content/uploads/2018/11/notebook-1280538_960_720.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: Raleway;
+}
+/*White Parageaph Font*/
+#intro{
+  color: white; 
+}
+/*Card Text*/
+p
+{
+  color:rgb(214, 63, 63);
+}
+
+/*Header*/
+
+
+
+
+/*Shadow Effect*/
+  #content{
+	margin: auto;
+    width: 50%;
+
+    padding-top: 20%;
+    padding: 0.625rem;
+    position: relative;
+    color:white;
+    font-size: 20px;
+	padding-top:20%;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+}
+/*About US PAdding*/
+#pad{
+    padding-top: 10px !important; 
+}
+/*Heading About Us*/
+h1{
+	font-weight: 700;
+  font-size: 5em;
+  color:whitesmoke;
+  font-family: Raleway;
+}
+
+hr{
+  
+  height: 51px;
+  color: whitesmoke;
+
+}
+hr.decoration { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: whitesmoke; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+
+
+
+
+  
+
+/* .footer-links__header{
+  text-align: center;
+  padding-left: 20px;
+} */
+ul {
+  text-align: left;
+  list-style-position: left;
+  list-style: none;
+}
+
