@@ -200,7 +200,7 @@
   /* Parallex code */
   .parallax {
     /* The image used */
-    background-image: url("/WebContent/libs/imgs/brown-business-technologies-coffee-162605.jpg");
+    background: url('brown-business-technologies-coffee-162605.jpg');
   
     /* Set a specific height */
     min-height: 500px; 
@@ -214,8 +214,7 @@
   }
   .parallax2 {
     /* The image used */
-    background-image: url("/WebContent/libs/imgs/brown-business-technologies-coffee-162605.jpg");
-  
+	background: url('https://images.pexels.com/photos/162605/notebook-natural-laptop-macbook-162605.jpeg?cs=srgb&dl=brown-business-technologies-coffee-162605.jpg') ; 
     /* Set a specific height */
     min-height: 500px; 
     height: 700px;

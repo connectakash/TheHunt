@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -15,53 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="/WebContent/libs/css/main.css">
-    <link rel="stylesheet" href="/WebContent/libs/css/signin.css">
+    <link rel="stylesheet" href="libs/css/main.css">
+    <link rel="stylesheet" href="libs/css/signin.css">
 </head>
 <body>
-        <!--Header Start-->
-
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><img src="/WebContent/libs/imgs/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Categories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Companies</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li> -->
-          </ul>
-          <div class="header-btn-align" >
-            <button  class="btn btn-outline-success" type="submit" style="background:#26ae61;">Sign In</button>
-          </div>
-        </div>
-      </nav>
-    
-    <!--Header End-->
-<br><br><br><br>
+	 
+	 <jsp:include page="/WEB-INF/views/header.html" />
+<br>
 
 
 
@@ -131,7 +91,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel"><img src="/WebContent/libs/imgs/logo.png"></h5>
+            <h5 class="modal-title" id="exampleModalLabel"><img src="libs/imgs/logo.png"></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -170,7 +130,7 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel"><img src="/WebContent/libs/imgs/logo.png"></h5>
+                  <h5 class="modal-title" id="exampleModalLabel"><img src="libs/imgs/logo.png"></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -202,76 +162,6 @@
             </div>
           </div>
         </div>
-
-
-
-
-      <!-- **********************Footer Start **************************-->
-<footer>
-        <section class="footer-Content">
-        <div class="container">
-        <div class="row">
-        <div class="col-lg-3 col-md-3 col-xs-12">
-        <div class="widget">
-        <div class="footer-logo"><img src="/WebContent/libs/imgs/logo.png" alt=""></div>
-        <div class="textwidget">
-        <p>Sed consequat sapien faus quam bibendum convallis quis in nulla. Pellentesque volutpat odio eget diam cursus semper.</p>
-        </div>
-        </div>
-        </div>
-        <div class="col-lg-6 col-md-4 col-xs-12">
-        <div class="widget">
-        <h3 class="block-title">Quick Links</h3>
-        <ul class="menu">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">License</a></li>
-        <li><a href="#">Contact</a></li>
-        </ul>
-        <ul class="menu">
-        <li><a href="#">Terms & Conditions</a></li>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Refferal Terms</a></li>
-        <li><a href="#">Product License</a></li>
-        </ul>
-        </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-12">
-        <div class="widget">
-        <h3 class="block-title">Subscribe Now</h3>
-        <p>Sed consequat sapien faus quam bibendum convallis.</p>
-        <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
-        <div class="form-group is-empty">
-        <input type="email" value="" name="Email" class="form-control" id="EMAIL" placeholder="Enter Email..." required="">
-        <button type="submit" name="subscribe" id="subscribes" class="btn btn-common sub-btn"><i class="far fa-envelope"></i></button>
-        <div class="clearfix"></div>
-        </div>
-        </form>
-        <ul class="mt-3 footer-social">
-        <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a class="linkedin" href="#"><i class="	fab fa-linkedin-in"></i></a></li>
-        <li><a class="google-plus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
-        </ul>
-        </div>
-        </div>
-        </div>
-        </div>
-        </section>
-        <div id="copyright">
-        <div class="container">
-        <div class="row">
-        <div class="col-md-12">
-        <div class="site-info text-center">
-        <p>Designed and Developed by Akash &#169;  <a href="index.html" rel="nofollow">THE HUNT 2019</a></p>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </footer>
-    
-        <!--************ footer End **********************-->
-
+        <jsp:include page="/WEB-INF/views/footer.html" />
 </body>
 </html>
